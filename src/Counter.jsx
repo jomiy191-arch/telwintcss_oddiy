@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const GalleryWithFade = () => {
-  // 🔹 Bu yerga o‘z rasmlaringni qo‘yasan
+  
   const images = [
     { src: "SENING_RASM_1_URL", name: "Rasm 1" },
     { src: "SENING_RASM_2_URL", name: "Rasm 2" },
