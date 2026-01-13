@@ -16,7 +16,7 @@ const GalleryWithFade = () => {
   const handleSelect = (img) => {
     setFade(false); // fade out
     setTimeout(() => {
-      setSelected(img); // rasmni o‘zgartirish
+      setSelected(img); 
       setFade(true);   // fade in
     }, 300); // duration bilan mos
   };
