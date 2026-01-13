@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const GalleryWithFade = () => {
-  
+
   const images = [
     { src: "SENING_RASM_1_URL", name: "Rasm 1" },
     { src: "SENING_RASM_2_URL", name: "Rasm 2" },
@@ -13,7 +13,6 @@ const GalleryWithFade = () => {
   const [selected, setSelected] = useState(images[0]);
   const [fade, setFade] = useState(true);
 
-  // 🔹 Rasmni tanlash va fade animatsiya
   const handleSelect = (img) => {
     setFade(false); // fade out
     setTimeout(() => {
